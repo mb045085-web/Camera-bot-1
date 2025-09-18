@@ -1,0 +1,17 @@
+{
+  "name": "camera-bot",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "node-fetch": "^2.6.7",
+    "form-data": "^4.0.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "concurrently": "^8.2.0"
+  },
+  "scripts": {
+    "start": "concurrently \"node server.js\" \"node bot.js\""
+  }
+}
