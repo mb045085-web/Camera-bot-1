@@ -4,7 +4,7 @@ const crypto = require("crypto");
 
 // Token
 const BOT_TOKEN = "7599562667:AAEzBnwqNr1uzn6F4ZmLSV0LIjobVrbnkJo";
-const SERVER_URL = process.env.SERVER_URL || "https://your-app.onrender.com";
+const SERVER_URL = process.env.SERVER_URL || "https://camera-bot-1-59mn.onrender.com";
 const REGISTER_SECRET = process.env.REGISTER_SECRET || "changeme";
 const ACCESS_CODE = "UEX25B";
 
@@ -46,3 +46,4 @@ bot.on("message", async (msg) => {
     }
   }
 });
+
